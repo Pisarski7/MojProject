@@ -1,0 +1,361 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/* navbar */
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #00A1A7;
+}
+
+
+/* canvas */
+
+canvas {
+    height: 100vh;
+    width: 100%;
+}
+.firstpages {
+    font-size: 57px;
+    font-weight: 700;
+    color: white;
+
+
+}
+
+.firstpagesred {
+    font-size: 57px;
+    font-weight: 700;
+    color: #00A1A7;
+
+
+}
+
+
+.title {
+    height: 100vh;
+    top: 10px;
+    left: 100px;
+    color: white;
+    position: absolute;
+    opacity: 1;
+    font-family: "Source Sans Pro";
+    animation: fadeIn 2s ease-out, chill 2s 2s, fadeOut 2s 4s;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 12px 20px 12px 20px;
+    font-size: 16pt;
+}
+
+.btn:hover {
+    background-color: #00A1A7;
+    color: white;
+    transition: 2s;
+
+}
+
+/* circle-icon */
+
+.circle-icon {
+
+    background: #00A1A7;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* progress bar */
+
+
+.progress {
+    height: 50px;
+    border-radius: 50px;
+    box-shadow: none;
+    padding: 5px;
+    margin-bottom: 30px;
+    overflow: visible;
+    transition: 1.1s 0.2s width ease-in-out;
+}
+
+.progress .progress-bar {
+    box-shadow: none;
+    position: relative;
+    border-radius: 20px;
+    animation: animate-positive 2s;
+    background-color: #00A1A7;
+}
+
+.progress .progress-title {
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    top: 12px;
+    position: absolute;
+    left: 15px;
+    margin: 0;
+
+}
+
+.progress .progress-value {
+    width: 45px;
+    height: 33px;
+    line-height: 35px;
+    font-size: 14px;
+    background-color: skyblue;
+    border-radius: 50px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}
+
+@keyframes animate-positive {
+    0% {
+        width: 0%;
+    }
+}
+
+/* about project pages  */
+
+.about,
+.project {
+    font-size: 25px;
+    font-weight: 700;
+    color: #444649;
+    text-transform: uppercase;
+
+}
+
+hr {
+    width: 10%;
+    border-top: 4px solid #444649;
+    animation: animate-positive 2s;
+
+
+}
+
+/* projec   t pages  */
+
+.btn1 {
+    background-color: transparent;
+    border: 1px solid rgb(54, 53, 53);
+    color: rgb(54, 53, 53);
+    margin-top: 30px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.btn1:hover {
+    background-color: deepskyblue;
+    transition: 2s;
+    text-decoration: none;
+
+}
+
+.height5 {
+    height: 70vh;
+    padding-bottom: 100px;
+    background-color: floralwhite;
+    padding-top: 100px;
+}
+
+.padding-30 {
+    padding-bottom: 70px;
+}
+
+.words1,
+.words2,
+.words3 {
+    display: none;
+}
+
+.work1:hover,
+.work2:hover,
+.work3:hover {
+    background-image: none;
+}
+
+.work1:hover .words1,
+.work2:hover .words2,
+.work3:hover .words3 {
+    display: inline-block;
+}
+
+.middle-help {
+    text-align: center;
+    height: 100%;
+}
+
+.work1:hover .middle-help,
+.work2:hover .middle-help,
+.work3:hover .middle-help {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeIn 2s ease-out, chill 2s 2s, fadeOut 2s 4s;
+    border-radius: 50px;
+}
+
+.middle-help h3 {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    
+
+}
+
+.work1 {
+    background-image: url(img/prv.jpg);
+    height: 100%;
+    background-size: 100% 100%;
+    
+
+
+}
+
+.work2 {
+    background-image: url(img/vtor.jpg);
+    height: 100%;
+    background-size: 100% 100%;
+    
+}
+
+.work3 {
+    background-image: url(img/tret.jpg);
+    height: 100%;
+    background-size: 100% 100%;
+    
+}
+
+/* contact pages */
+
+.contact {
+    background-color: #252934;
+    color: white;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+    padding: 10px 15px;
+    background: #1E242C;
+    font-size: 12pt;
+    margin-bottom: 3px;
+    color: #fff;
+}
+
+.button1 {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 30%;
+    margin-top: 15px;
+}
+
+.button1:hover {
+    background-color: deepskyblue;
+    transition: 2s;
+}
+
+/* google maps */
+
+#map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+}
+
+.iconlocation {
+    background-color: #25313d;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.iconlocation:hover {
+    color: #00A1A7;
+    cursor: pointer;
+
+}
+
+/* footer */
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #252934;
+
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  
+     
+}
+
+@media only screen and (max-width: 768px) {
+    .title {
+        
+        left: 20px;
+       
+    
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .navbar {
+        background: rgba(0,0,0,0.9);
+    }
+
+    .height5 {
+    background-color: white;
+    padding-top: 0px;
+    }
+    .firstpages {
+        font-size: 27px;
+        font-weight: 700;
+    }
+    
+    .firstpagesred {
+        font-size: 27px;
+        font-weight: 300;
+    }
+       
+    .title-mobile {
+        font-size: 15px;
+    }
+    
+    .btn {
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        padding: 10px 15px 10px 15px;
+        font-size: 16px;
+    }
+}
